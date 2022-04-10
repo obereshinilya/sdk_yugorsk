@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af91b55e-00ec-434f-9bfa-8c184a447e3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/AddLogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/AddLogs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/AuthLoginEventHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/AuthLoginEventHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/UserLoggedIn.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/UserLoggedIn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Events/WasUnbanned.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/WasUnbanned.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ChangePasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ChangePasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ElemController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FailureFreeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Form51Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Form52Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Form5363Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Form61Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Form62Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InvoiceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MenuController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NotesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ObjController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ObjController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OperationalSafetyController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OpoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OpoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Opo_dayController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PdfReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PdfReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReadyController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController_history.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SumCheckerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SumCheckerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Tb.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Tb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/XMLController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/XMLController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/test_XMLSoap/BodyTemplate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/test_XMLSoap/GisSoapFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/test_XMLSoap/HeaderTemplate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/test_XMLSoap/SoapTemplate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/year.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/CalcKoef.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/CalendarType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Counter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Docs/DangerEvents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Docs/Reglament.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/EventTypes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/FsMap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/LiveTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/MapGda.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/Spt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/UPPG1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/UPPG2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/UPPG3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/UPPG4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/UPPG6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/UPPG9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Maps/Uptr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Post/Show.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/ActionPlan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/DataCheck.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/DataCheckOut.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/DataResultCheck.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/Pm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/ReportTU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/ReportWorker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/ReportWorkerCert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Rtn/ReportWorkerPK.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ShowGda.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/SessionTimeout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/SessionTimeout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TimeBasedRestriction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TimeBasedRestriction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/APK_SDK.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/APK_SDK_OF.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Calc_elem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Calc_ip_opo_day.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Calc_ip_opo_hour.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Calc_ip_opo_i.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Calc_opo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Calc_pro_ip_opoi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Cs1que.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Dynamic/Calc_OPO_Pro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Dynamic/Calc_koef.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Dynamic/Calc_tb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Dynamic/Calendar_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Failure_free.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Glossary/Table_abbrev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Glossary/Table_class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Glossary/Table_desc_PB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Glossary/Table_termin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/JasBuf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Logs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Logs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Logs_ib.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Maintenance/Maintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Matrix/DangerousEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Matrix/DiagnEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Matrix/Event_types.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Operational_safety.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Ready.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Ref_obj.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Ref_obj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Ref_oto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Ref_shema.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/ElementStatus_day.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/EventPk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/QualityCriteria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/RepiatReport.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/ResultPk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/ScenaReport.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/StatusOpo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Report_history/ViolationsReport.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form51.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form52.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form52_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form5363.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form5363_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form61.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reports/Form62.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Action_plan_pb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Data_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Data_check_out.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Data_result_check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Pmla.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Report_tu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Report_worker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Report_worker_certification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn/Report_worker_pk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Act_reason_accident.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/General_info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_accident_investigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_building.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_insurance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_manage_system.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_organisation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_pk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_plan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_respons_worker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Info_tu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Kol_vo_checking.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Mark_ready.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Name_work.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Offers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Organisation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Plan_event.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Planing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Pmla.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Realization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Signed_data.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Rtn2/Status_tu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Status_obj.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Status_work.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/StrukturaPAO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tech_reg/Param_all.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tech_reg/Table_si.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tech_reg/Tech_reglament.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tech_reg/Type_param.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Type_obj.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Type_obj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Type_obor.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Wells1que.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Wells2que.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Wells_project.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Wells_type.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/XML_journal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Xml/Ssr_reports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Xml/Svr_factors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Xml/Svr_reports.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OPO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Opo_day.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Ref_opo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Ref_opo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Rules/MatchOldPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Rules/MatchOldPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/10. Технологические и вентиляционные выбросы в атмосферу.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/12. ПЕРЕЧЕНЬ ОБЯЗАТЕЛЬНЫХ ИНСТРУКЦИЙ И НОРМАТИВНО-ТЕХНИЧЕСКОЙ ДОКУМЕНТАЦИИ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/124- ИЭ 124 РИК-2017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/13. ЭКСПЛИКАЦИЯ ОБОРУДОВАНИЯ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/2  ХАРАКТЕРИСТИКА ИСХОДНОГО СЫРЬЯ МАТЕРИАЛОВ РЕАГЕНТОВ ИЗГОТАВЛИВАЕМОЙ ПРОДУКЦИИ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/3   ОПИСАНИЕ ТЕХНОЛОГИЧЕСКОГО ПРОЦЕССА И ТЕХНОЛОГИЧЕСКОЙ СХЕМЫ ПРОИЗВОДСТВЕННОГО ОБЪЕКТА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/353 ПИ 353 КУУ-2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/4. НОРМЫ ТЕХНОЛОГИЧЕСКОГО РЕЖИМА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/5  КОНТРОЛЬ ТЕХНОЛОГИЧЕСКОГО ПРОЦЕССА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/6 распределение скважин по УППГ на 01.06.20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/6. ОСНОВНЫЕ ПОЛОЖЕНИЯ ПУСКА И ОСТАНОВКИ ПРОИЗВОДСТВЕННЫХ ОБЪЕКТОВ ПРИ НОРМАЛЬНЫХ УСЛОВИЯХ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/7  БЕЗОПАСНАЯ ЭКСПЛУАТАЦИЯ ПРОИЗВОДСТВА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/8. МЕТОДЫ И СРЕДСТВА ЗАЩИТЫ РАБОТАЮЩИХ ОТ ПРОИЗВОДСТВЕННЫХ ОПАСНОСТЕЙ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/9  ДОПОЛНИТЕЛЬНЫЕ МЕРЫ БЕЗОПАСНОСТИ ПРИ ЭКСПЛУАТАЦИИ ПРОИЗВОДСТВА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/docs/ПЛАРН Общества  (УПТР) 2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/13.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/15.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/17.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/18.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/30.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/7.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/oto/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/1_pipeline_clear_gas_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/1_pipeline_clear_gas_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/1_torch_system_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/1_torch_system_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/1_torch_system_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/2_pipeline_clear_gas_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/2_pipeline_clear_gas_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/2_torch_system_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/2_torch_system_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/UPIK_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/UPIK_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/UPOP_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/UPOP_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/UZOP_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/UZOP_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/block_input_RIK_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/block_input_RIK_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/block_input_RIK_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/block_input_manifold_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/block_input_manifold_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/control_separation_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/control_separation_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/fountain_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/fountain_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/fountain_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/heating_block_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/heating_block_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/heating_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/heating_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/heating_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/pipeline_gas_high_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/pipeline_gas_high_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/pipeline_gas_high_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/pipeline_gas_low_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/pipeline_gas_low_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/pipeline_gas_low_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/tech_pump_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/tech_pump_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/valve_knot_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/storage/pdf/valve_knot_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/edit_user.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/inc/menu.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/logs_pdf.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/new_role.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/new_user.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/perm_view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/role_view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/user_view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/changePassword.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/changePassword.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/failure_free/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/failure_free/new.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/failure_free/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form51/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form51/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form51/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form51/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form52/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form52/create_table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form52/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form52/edit_table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form52/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form52/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form5363/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form5363/create_table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form5363/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form5363/edit_table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form5363/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form5363/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form61/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form61/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form61/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form61/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form62/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form62/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form62/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/form62/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/gda.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/calc-koef.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/calendar-type.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/counter.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/docs/danger-events.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/docs/reglament.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/event-types.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/fs-map.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/live-table.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/map-gda.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/spt.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/u-p-p-g1.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/u-p-p-g2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/u-p-p-g3.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/u-p-p-g4.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/u-p-p-g6.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/u-p-p-g9.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/maps/uptr.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/post/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/action-plan.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/data-check-out.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/data-check.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/data-result-check.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/pm.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/report-t-u.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/report-worker-cert.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/report-worker-p-k.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/rtn/report-worker.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/show-gda.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/operational/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/operational/new.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/operational/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/opos_pdf.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pdf/invoice.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ready/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ready/new.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/ready/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/roles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/roles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/admin/admin_ib.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/admin/admin_main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/admin/admin_main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/admin/inc/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/admin/inc/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/config_safety/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/config_safety/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/config_safety/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/event_pk.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/index_effect.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/quality_criteria.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/repiat_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/result_pk.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/scena_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/status_elem.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/status_opo.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/report_history/violations_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/act_pb.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/event_pk.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/form_8.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/info_act.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/opo_5_1.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/repiat_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/result_pk.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/scena_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/status_opo.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/violations_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/xml_journal.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn/iclude/doc_header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab10.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab11.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab21.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab22.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab23.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab3.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab4.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab51.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab521.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab53.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab61.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab62.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab63.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab64.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab71.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab72.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab81.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab82.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab83.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab84.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/edit_tab91.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab10.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab11.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab21.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab22.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab23.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab3.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab4.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab51.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab521.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab53.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab61.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab62.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab63.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab64.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab71.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab72.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab81.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab82.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab83.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab84.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/edit_table/new_tab91.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/doc_header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_10.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_11.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_21.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_22.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_23.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_3.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_4.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_51.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_521.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_53.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_61.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_62.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_63.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_64.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_71.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_72.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_81.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_82.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_83.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_84.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/iclude/tab_91.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/rtn2/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/gda.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/gda.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/obj/pdf/pdf_tech_reg.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/side_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/side_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/sidebar_top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/sidebar_top.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/sum_checker_tree/sumchecker_tree.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/sum_checker_tree/sumchecker_tree.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/jas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/jas/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/layouts/app-map.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/layouts/app12.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/maps/plan.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/tb.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/tb.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/xml_test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/15_min.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/15_minutok.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/ElementStatus_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/EventPk_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/QualityCriteria_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/RepiatReport_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/ResultPk_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/ScenaReport_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/StatusOpo_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/ViolationsReport_day.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/events_ssr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/events_svr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/new 1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/10. Технологические и вентиляционные выбросы в атмосферу.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/12. ПЕРЕЧЕНЬ ОБЯЗАТЕЛЬНЫХ ИНСТРУКЦИЙ И НОРМАТИВНО-ТЕХНИЧЕСКОЙ ДОКУМЕНТАЦИИ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/124- ИЭ 124 РИК-2017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/13. ЭКСПЛИКАЦИЯ ОБОРУДОВАНИЯ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/1_pipeline_clear_gas_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/2  ХАРАКТЕРИСТИКА ИСХОДНОГО СЫРЬЯ МАТЕРИАЛОВ РЕАГЕНТОВ ИЗГОТАВЛИВАЕМОЙ ПРОДУКЦИИ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/3   ОПИСАНИЕ ТЕХНОЛОГИЧЕСКОГО ПРОЦЕССА И ТЕХНОЛОГИЧЕСКОЙ СХЕМЫ ПРОИЗВОДСТВЕННОГО ОБЪЕКТА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/353 ПИ 353 КУУ-2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/4. НОРМЫ ТЕХНОЛОГИЧЕСКОГО РЕЖИМА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/5  КОНТРОЛЬ ТЕХНОЛОГИЧЕСКОГО ПРОЦЕССА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/6 распределение скважин по УППГ на 01.06.20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/6. ОСНОВНЫЕ ПОЛОЖЕНИЯ ПУСКА И ОСТАНОВКИ ПРОИЗВОДСТВЕННЫХ ОБЪЕКТОВ ПРИ НОРМАЛЬНЫХ УСЛОВИЯХ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/7  БЕЗОПАСНАЯ ЭКСПЛУАТАЦИЯ ПРОИЗВОДСТВА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/8. МЕТОДЫ И СРЕДСТВА ЗАЩИТЫ РАБОТАЮЩИХ ОТ ПРОИЗВОДСТВЕННЫХ ОПАСНОСТЕЙ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/9  ДОПОЛНИТЕЛЬНЫЕ МЕРЫ БЕЗОПАСНОСТИ ПРИ ЭКСПЛУАТАЦИИ ПРОИЗВОДСТВА.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/docs/ПЛАРН Общества  (УПТР) 2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/10.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/12.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/13.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/15.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/17.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/18.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/30.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/7.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/8.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/oto/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/1_pipeline_clear_gas_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/1_pipeline_clear_gas_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/1_torch_system_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/1_torch_system_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/1_torch_system_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/2_pipeline_clear_gas_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/2_pipeline_clear_gas_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/2_torch_system_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/2_torch_system_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/UPIK_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/UPIK_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/UPOP_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/UPOP_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/UZOP_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/UZOP_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/block_input_RIK_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/block_input_RIK_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/block_input_RIK_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/block_input_manifold_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/block_input_manifold_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/control_separation_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/control_separation_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/fountain_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/fountain_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/fountain_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/heating_block_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/heating_block_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/heating_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/heating_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/heating_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/pipeline_gas_high_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/pipeline_gas_high_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/pipeline_gas_high_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/pipeline_gas_low_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/pipeline_gas_low_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/pipeline_gas_low_ungg.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/tech_pump_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/tech_pump_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/valve_knot_lavalin.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/pdf/valve_knot_mannesman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/reference_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/spatie/laravel-permission/src/Middlewares/PermissionMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/spatie/laravel-permission/src/Middlewares/PermissionMiddleware.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="C:\Users\ilya\Documents\GitHub\sdk123\composer.json" interpreterId="4e2fa1ea-9eea-4b8e-a706-4c8b15bb4dce" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/unicodeveloper/laravel-sessiontimeout" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-dompdf" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/cybercog/laravel-ban" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/unicodeveloper/laravel_sessiontimeout" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-sftp" />
+      <path value="$PROJECT_DIR$/vendor/jailtonsc/laravel-response-xml" />
+      <path value="$PROJECT_DIR$/vendor/kyslik/column-sortable" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/date" />
+      <path value="$PROJECT_DIR$/vendor/spatie/array-to-xml" />
+      <path value="$PROJECT_DIR$/vendor/wemersonjanuario/wkhtmltopdf-windows" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="27FCwVRagVEgJ4krPpDMRuW6uyD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/web" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/новый 1.txt" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ilya\Documents\GitHub\sdk_yugorsk\resources\views\web" />
+      <recent name="C:\Users\ilya\Documents\GitHub\sdk_yugorsk\resources\views\web\include" />
+      <recent name="C:\Users\ilya\Documents\GitHub\sdk_yugorsk\app\Models" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af91b55e-00ec-434f-9bfa-8c184a447e3e" name="Default Changelist" comment="" />
+      <created>1648906685846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648906685846</updated>
+      <workItem from="1648906689156" duration="890000" />
+      <workItem from="1648909601801" duration="138000" />
+      <workItem from="1649001259976" duration="1952000" />
+      <workItem from="1649003772943" duration="612000" />
+      <workItem from="1649004414968" duration="144000" />
+      <workItem from="1649052356631" duration="1198000" />
+      <workItem from="1649070253102" duration="43000" />
+      <workItem from="1649071381346" duration="554000" />
+      <workItem from="1649072051030" duration="711000" />
+      <workItem from="1649072778318" duration="7000" />
+      <workItem from="1649079870197" duration="911000" />
+      <workItem from="1649135870366" duration="7016000" />
+      <workItem from="1649144591618" duration="6939000" />
+      <workItem from="1649156170925" duration="1086000" />
+      <workItem from="1649157290917" duration="10584000" />
+      <workItem from="1649182521124" duration="490000" />
+      <workItem from="1649309051783" duration="35704000" />
+      <workItem from="1649501296232" duration="51000" />
+      <workItem from="1649504155777" duration="23031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

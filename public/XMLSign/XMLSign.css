@@ -1,0 +1,148 @@
+#certs_lists_div {
+    width: 100%;
+    margin: 0 auto 0;
+    text-align: left;
+    /*border-left: 4px solid grey;*/
+    /*padding-bottom: 5px;*/
+    padding-left: 5px;
+    /*padding-top: 10px;*/
+}
+#XMLSign_cert_info{
+    width: 100%;
+    margin: 0 auto 0;
+    text-align: left;
+    /*border-left: 4px solid grey;*/
+    /*padding-top: 10px;*/
+    padding-left: 5px;
+    margin-bottom: 30px;
+}
+
+span.cert_list_header_text{
+    color: #555;
+    display: inherit;
+    margin-bottom: 5px;
+}
+
+.XMLSign_dropdown {
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    height: 100%;
+    text-align: left;
+}
+.XMLSign_dropdown .XMLSign_select{
+    cursor: pointer;
+    display: block;
+    padding: 15px
+}
+
+.XMLSign_dropdown .XMLSign_select > i {
+    font-size: 13px;
+    color: #888;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    float: right;
+    line-height: 20px
+}
+.XMLSign_dropdown:hover{
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+
+.XMLSign_dropdown:active {
+    background-color: #f8f8f8
+}
+.XMLSign_dropdown .active:hover,
+.XMLSign_dropdown .active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8
+}
+.XMLSign_dropdown .active .XMLSign_select > i {
+    transform: rotate(-90deg)
+}
+.XMLSign_dropdown .XMLSign-dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 3000;
+}
+.XMLSign_dropdown .XMLSign-dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+.XMLSign_dropdown .XMLSign-dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+.XMLSign_dropdown .XMLSign-dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+.XMLSign_dropdown .XMLSign-dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+
+.cert_info_div{
+    border-left: 4px solid grey;
+    padding-left: 10px;
+    /*padding-bottom: 5px;*/
+}
+.plugin_info{
+    margin: 5px;
+}
+#plugin_loaded_text{
+    font-size: 20px;
+}
+
+.XMLSign_btn_div{
+    width: 100%;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+    margin: 0 0 20px;
+    text-align: center;
+}
+.XMLSign_btn_div button{
+    outline: none;
+    background: #4285f4;
+    width: 50%;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    line-height: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.line-on-div-bottom{
+    margin-top: 5px;
+    padding: 0;
+    border: none;
+    background-color: darkgray;
+    height: 1px; /* Толщина линии */
+    width: 50%;
+}
+
+.cert_info_text{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
