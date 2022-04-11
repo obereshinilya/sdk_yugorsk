@@ -26,6 +26,8 @@ class MenuController extends Controller
         $rezhim = 'Высокий риск';
     }
     $data_opos = [1=>'Test'];
-       return view('web.gda', ['name' => $v_menu, 'rezhim'=>$rezhim, 'data_opos'=>$data_opos]);
+   AdminController::log_record('Открыл ситуационную карту');//пишем в журнал
+
+   return view('web.gda', ['name' => $v_menu, 'rezhim'=>$rezhim, 'data_opos'=>$data_opos]);
    }
 }

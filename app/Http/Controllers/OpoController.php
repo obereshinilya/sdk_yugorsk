@@ -28,48 +28,9 @@ class OpoController extends Controller
 {
     public function view_opo ()
     {
-  return view('web.opo');
+        AdminController::log_record('Открыл схему Краснотурьинского ЛПУ МГ');//пишем в журнал
+        return view('web.opo');
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     //старое снизу
