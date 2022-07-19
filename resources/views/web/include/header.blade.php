@@ -19,6 +19,14 @@
         </div>
     </div>
     <div class="time_block">
-        <p>{{Carbon\Carbon::now()}}</p>
+        <p id="time"></p>
     </div>
 </div>
+
+<script>
+    function updateTime() {
+        document.getElementById('time').textContent = new Date().toISOString().split('T')[0] + ' ' + new Date().toISOString().split('T')[1].split('.')[0];
+    }
+    setInterval(updateTime, 1000);
+
+</script>

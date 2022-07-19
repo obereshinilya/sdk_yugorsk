@@ -40,6 +40,22 @@ use Illuminate\Support\Facades\Auth;
 
 
 
+//******************************* Документарный блок ******************************************
+            Route::get('/docs', 'ReportController@index');  //главная страница
+            Route::get('/docs/actual_declarations', 'ReportController@actual_declarations');  //Реестр актуальных деклараций ПБ
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

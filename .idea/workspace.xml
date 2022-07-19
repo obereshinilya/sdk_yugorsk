@@ -2,49 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af91b55e-00ec-434f-9bfa-8c184a447e3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MenuController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MenuController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OpoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OpoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/HeliosCond-Bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/HeliosCond-Bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/HeliosCond.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/HeliosCond.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/fonts/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/arrow_svg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/arrow_svg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/btn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/btn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/btn_left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/btn_left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/btn_right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/btn_right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/fond.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/fond.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/arrow_bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_bottom.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/arrow_right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/arrow_right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/bad_sm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/bad_sm.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/check.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/docs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/docs.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/dot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/dot.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/download.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/edit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/good_sm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/good_sm.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/home.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/i.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/i.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/info.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/open.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/pdf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/pdf.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/rate/bad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/rate/bad.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/rate/good.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/rate/good.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/settings.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/trash.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/icons/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/icons/upload.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/lpu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/lpu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/t_left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/t_left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/t_right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/t_right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/tech.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/tech.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/trub.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/trub.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/ugorsk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/ugorsk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/ugorsk2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/ugorsk2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/web/opo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/opo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/admin/inc/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/admin/inc/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/Xml_reports/Ssr_reports/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/Xml_reports/Svr_reports/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/effect_pk.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/opo_pdf.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/opo_pdf_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_act_pb.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_effect.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_elem.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_elem_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_event.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_event_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_info_act.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_quality_criteria.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_quality_criteria_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_repair.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_repair_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_result_pk.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_result_pk_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_scena.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_scena_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_violations_report.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_violations_report_term.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/pdf/pdf_xml_journal.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/quality_criteria.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/gda.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/gda.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/sidebar_doc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/sidebar_doc.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/sidebar_top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/sidebar_top.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/toptable.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/toptable.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/layouts/app_admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/layouts/app_admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +197,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/update/assets/css/style.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Telegram Desktop/25052022/25052022/journal_nadim/journal" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -244,6 +240,30 @@
       <workItem from="1649504155777" duration="23031000" />
       <workItem from="1649585020765" duration="799000" />
       <workItem from="1649654568049" duration="3491000" />
+      <workItem from="1649670039149" duration="19000" />
+      <workItem from="1649679050579" duration="25000" />
+      <workItem from="1649764041998" duration="419000" />
+      <workItem from="1649765750332" duration="765000" />
+      <workItem from="1649789974523" duration="438000" />
+      <workItem from="1650541764025" duration="679000" />
+      <workItem from="1650546114560" duration="179000" />
+      <workItem from="1650546565336" duration="227000" />
+      <workItem from="1650565763384" duration="543000" />
+      <workItem from="1651663565436" duration="11040000" />
+      <workItem from="1651917116550" duration="887000" />
+      <workItem from="1652351893477" duration="787000" />
+      <workItem from="1652784890358" duration="11000" />
+      <workItem from="1656842204542" duration="787000" />
+      <workItem from="1656926155266" duration="486000" />
+      <workItem from="1656928376728" duration="612000" />
+      <workItem from="1657003008643" duration="305000" />
+      <workItem from="1657003334597" duration="609000" />
+      <workItem from="1657037334596" duration="44000" />
+      <workItem from="1657088422070" duration="617000" />
+      <workItem from="1657802500878" duration="151000" />
+      <workItem from="1657802668938" duration="695000" />
+      <workItem from="1658045136822" duration="25000" />
+      <workItem from="1658128847598" duration="13949000" />
     </task>
     <servers />
   </component>
@@ -255,7 +275,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

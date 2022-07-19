@@ -33,7 +33,7 @@
                     <td>
                         <p>Ситуационный план ОПО</p>
                         <h3>ООО «Газпром трансгаз Югорск»</h3><br/>
-                        <a href="#openModal_info">Общие сведения</a>
+{{--                        <a href="#openModal_info">Общие сведения</a>--}}
                     </td>
                     <td class="centered">
                         <p>Текущее состояние:</p>
@@ -139,113 +139,8 @@
                     <tr>
                         <td></td>
                         <td>
-                            <a href="/opo" style="margin-left: 25%">Просмотр</a>
+                            <a href="/opo" style="">Просмотр</a>
                         </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div id="openModal_info" class="modal">
-    <div class="modal-dialog">
-        <div class="info_modal_window">
-            <div class="modal-header">
-                <a href="#close" title="Close" class="close">×</a>
-            </div>
-            <div class="modal-body">
-                <table class="modal_table map_hover">
-                    <tbody>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
-                    </tr>
-                    <tr>
-                        <td>№</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Столбец</td>
-                        <td>Перейти</td>
                     </tr>
                     </tbody>
                 </table>
@@ -314,22 +209,6 @@
     .modal-body a{background:#e5f2f9;color:#4689aa;padding:8px 15px;border-radius:7px;font-size:12px;text-decoration:none;}
     .modal-body a:hover{background:#4689aa;color:#fff;}
 
-    .info_modal_window {
-        width: 110vh;
-        height: 60vh;
-        position: relative;
-        top: -15vh;
-        left: -30vh;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;background-color: #fff;-webkit-background-clip: padding-box;background-clip: padding-box;border-radius: 10px;
-        outline: 0;}
 </style>
 </html>
 

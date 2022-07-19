@@ -23,6 +23,15 @@
 <div class="top_table_inside" id="top_table_inside">
     <table>
         <tbody>
+        <tr>
+            <td class="td_date">18-07-2022 18:00</td>
+            <td class="td_status">C2</td>
+            <td class="td_opo">УМГ</td>
+            <td class="td_element">Уренгой-Новопсков 1262.6-1263.3</td>
+            <td class="td_number">Квитировано</td>
+            <td class="td_event">До окончания действия экспертизы < 365 дней</td>
+        </tr>
+{{--        //Сюда нарожать строк из будущего журнала событий--}}
         </tbody>
     </table>
 </div>
