@@ -13,7 +13,7 @@
             <td class="td_element">Элемент ОПО</td>
             <td class="td_number">Состояние</td>
             <td class="td_event">Событие</td>
-            <td class="td_btn "><a href="{{ url('/jas_full?sort=data&direction=desc') }}">Открыть полностью</a></td>
+            <td class="td_btn "><a href="{{ url('/jas_full') }}">Открыть полностью</a></td>
         </tr>
         </tbody>
     </table>
@@ -21,17 +21,49 @@
 
 
 <div class="top_table_inside" id="top_table_inside">
-    <table>
+    <table id="itemInfoTable">
         <tbody>
-        <tr>
-            <td class="td_date">18-07-2022 18:00</td>
-            <td class="td_status">C2</td>
-            <td class="td_opo">УМГ</td>
-            <td class="td_element">Уренгой-Новопсков 1262.6-1263.3</td>
-            <td class="td_number">Квитировано</td>
-            <td class="td_event">До окончания действия экспертизы < 365 дней</td>
-        </tr>
 {{--        //Сюда нарожать строк из будущего журнала событий--}}
         </tbody>
     </table>
 </div>
+
+<script>
+
+    $(document).ready(function (){
+        getTableData();
+        setInterval(getTableData, 10000);
+    });
+
+    function getTableData(type=null, data=null) {
+
+        $.ajax({
+            url:'/jas_in_top_table',
+            // data: 1,
+            type:'GET',
+            success:(res)=>{
+                // console.log(res[0]['id'])
+                var table_body=document.getElementById('itemInfoTable').getElementsByTagName('tbody')[0]
+                table_body.innerText=''
+                var check = 'Новое'
+                for (var i = 0; i<res.length; i++){
+                    if (res[i]['check']){
+                        check = 'Просмотрено'
+                    } else {
+                        check = 'Новое'
+                    }
+                    var tr=document.createElement('tr')
+                    tr.innerHTML+=`<td class="td_date">${res[i]['date'].split('.')[0]}</td>`
+                    tr.innerHTML+=`<td class="td_status">${res[i]['status']}</td>`
+                    tr.innerHTML+=`<td class="td_opo">${res[i]['opo']}</td>`
+                    tr.innerHTML+=`<td class="td_element">${res[i]['elem_opo']}</td>`
+                    tr.innerHTML+=`<td class="td_number">${check}</td>`
+                    tr.innerHTML+=`<td class="td_event">${res[i]['sobitie']}</td>`
+
+                    table_body.appendChild(tr);
+                }
+            }
+        })
+    }
+
+</script>

@@ -41,6 +41,11 @@ use Illuminate\Support\Facades\Auth;
 
 
 //******************************* Документарный блок ******************************************
+            //********************* ЖАС ***********************************************
+            Route::get('/jas_full', "JasController@showJas"); // страница Журнала событий полная
+            Route::get('/jas_in_top_table', "JasController@jas_in_top_table"); // страница Журнала событий полная
+
+
             Route::get('/docs', 'ReportController@index');  //главная страница
             Route::get('/docs/actual_declarations', 'ReportController@actual_declarations');  //Реестр актуальных деклараций ПБ
 
@@ -81,7 +86,6 @@ use Illuminate\Support\Facades\Auth;
             Route::get('/opo/{id}/main/new_failure_free', 'OpoController@new_failure_free');   // cоздание новой записи
 
 
-            Route::get('/jas_full', "JasController@showJas"); // страница Журнала событий полная
 
 //    Route::get('/opo/getjas1/', 'OpoController@get_jas1'); //Достаем данные из базы данных для таблицы
             Route::get('/opo/getjas1/{count}', 'OpoController@get_jas1');

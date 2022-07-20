@@ -3,21 +3,9 @@
 namespace App\Http\Controllers;
 
 
-use App\Models\Calc_ip_opo_day;
-use App\Models\Calc_ip_opo_hour;
-use App\Models\Calc_pro_ip_opoi;
-use App\Models\Failure_free;
-use App\Models\Operational_safety;
-use App\Models\Ready;
-use App\Models\Rtn;
 use App\Ref_opo;
-use App\Models\Calc_opo;
-use App\Models\Calc_ip_opo_i;
-use App\Models\Calc_elem;
-use App\Models\ref_oto;
 use App\Models\Ref_obj;
 use App\User;
-use App\Jas;
 use Illuminate\Support\Facades\Auth;
 use Jenssegers\Date\Date;
 use Illuminate\Http\Request;
