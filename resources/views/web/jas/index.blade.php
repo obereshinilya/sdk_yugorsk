@@ -6,7 +6,8 @@
 @endsection
 
 @section('content')
-
+    <link rel="stylesheet" href="{{asset('assets/css/table.css')}}">
+    <script src="{{asset('assets/js/jquery.dataTables.min.js')}}"></script>
 
     @include('web.include.sidebar_doc')
 
