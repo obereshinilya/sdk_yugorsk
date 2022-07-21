@@ -22,3 +22,38 @@
 <link href="{{asset('tooltip/tooltip.css')}}" rel="stylesheet">
 <script src="{{asset('modal-windows/modal_windows.js')}}"></script>
 <link href="{{ asset('modal-windows/modal_windows.css') }}" rel="stylesheet">
+
+<style>
+    /*.btn {*/
+
+    /*}*/
+    .btn-danger {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+        font-family: 'HeliosCond'!important;
+        text-decoration: none;
+        margin-top: 20px;
+
+        border-radius: 8px;
+    }
+</style>

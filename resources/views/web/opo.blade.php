@@ -3,9 +3,13 @@
 @section('title')
     Краснотурьинское ЛПУ МГ
 @endsection
+{{--    Включаем всплывашку с новым сообщением о событии--}}
+@include('web.admin.inc.new_JAS')
 <head>
     @include('web.include.yugorsk_head')
 </head>
+
+
 <body class="ugorsk">
 <div class="side_menu">
     @include('web.include.side_menu')

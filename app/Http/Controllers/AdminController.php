@@ -65,11 +65,12 @@ class AdminController extends Controller
         $js_logs = Logs::orderByDesc('id')->get();
         $setting_journal = Logs_safety::first();
         //проверки на заполненность
-        if ((count($js_logs)/$setting_journal->js_max)*100 > $setting_journal->js_attention){
-            return 3;   //если предупредительный ЖС
-        } elseif ((count($js_logs)/$setting_journal->js_max)*100 > $setting_journal->js_warning) {
-            return 4;   //если аварийный ЖС
+        if ((count($js_logs)/$setting_journal->js_max)*100 > $setting_journal->js_warning){
+            return 4;   //если предупредительный ЖС
+        } elseif ((count($js_logs)/$setting_journal->js_max)*100 > $setting_journal->js_attention) {
+            return 3;   //если аварийный ЖС
         }
+
     }
 
     //редактирование настроек безопасности

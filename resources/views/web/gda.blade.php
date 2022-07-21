@@ -3,6 +3,8 @@
 @section('title')
     Ситуационный план ОПО — Югорск
 @endsection
+{{--    Включаем всплывашку с новым сообщением о событии--}}
+@include('web.admin.inc.new_JAS')
 <head>
     @include('web.include.yugorsk_head')
 </head>

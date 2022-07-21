@@ -9,7 +9,7 @@ class Jas extends Model
 {
     protected $table = 'journal.jas';
     public $timestamps = false;
-    public $primaryKey = 'idobj';
+    public $primaryKey = 'id';
 
     protected $fillable = [
         'date', 'status', 'opo', 'elem_opo', 'check', 'sobitie', 'comment', 'auto_generate',

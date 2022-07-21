@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="card">
                  @include('web.admin.inc.menu')
-                    <div class="card-header"><h2 class="text-muted" style="text-align: center" >Список привелегий</h2></div>
+                    <div class="card-header"><h2 class="text-muted" style="text-align: center" >Список привилегий</h2></div>
                     <div class="table-responsive form51"  style="height: 70.5vh">
                             <table   class="table table-hover table-bordered" >
                             <thead>

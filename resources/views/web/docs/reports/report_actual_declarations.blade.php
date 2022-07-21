@@ -6,6 +6,8 @@
 @endsection
 
 @section('content')
+    {{--    Включаем всплывашку с новым сообщением о событии--}}
+    @include('web.admin.inc.new_JAS')
     @include('web.include.sidebar_doc')
 
 

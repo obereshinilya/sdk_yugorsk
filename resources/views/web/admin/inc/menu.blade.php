@@ -25,7 +25,7 @@
     @can('jda-show')
         <a href="/admin" class="btn btn-primary" aria-current="page">Журнал событий</a>
     @endcan
-    <a href="/admin/perm" class="btn btn-primary">Список привелегий</a>
+    <a href="/admin/perm" class="btn btn-primary">Список привилегий</a>
     <a class="btn btn-primary" href="{{ route('roles.index') }}">Список ролей</a>
     <a class="btn btn-primary" href="{{ route('users.index') }}">Список пользователей</a>
         @can('check-sum')
@@ -53,15 +53,6 @@
                         btn.className="btn btn-danger"
                         btn.textContent='Очистить журнал'
 
-                        if (data==3){
-                            if (modal_content.getElementsByClassName('btn btn-danger').length!=0){
-                                modal_content.removeChild(btn)
-                            }
-                            $('#jda_attention_text').html('Журнал событий заполнен до предупредительной отметки')
-                            modal.show()
-                            // modalShow(modal)
-                        }
-
                         if (data==4){
                             if (modal_content.getElementsByClassName('btn btn-danger').length==0){
                                 btn.href="clear_logs"
@@ -69,8 +60,17 @@
                             }
                             $('#jda_attention_text').html('Журнал событий заполнен до критической отметки')
                             modal.show()
-                            // modalShow(modal)
                         }
+
+                        if (data==3){
+                            if (modal_content.getElementsByClassName('btn btn-danger').length!=0){
+                                modal_content.removeChild(btn)
+                            }
+                            $('#jda_attention_text').html('Журнал событий заполнен до предупредительной отметки')
+                            modal.show()
+                        }
+
+
                     }
                 })
                 await sleep(60);

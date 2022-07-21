@@ -27,37 +27,37 @@
                             <table class="myTable" id="myTable">
                                 <thead>
                                 <tr>
-                                    <th>Дата</th>
-                                    <th>Статус</th>
-                                    <th>ОПО</th>
-                                    <th>Элемент ОПО</th>
-                                    <th>Состояние</th>
-                                    <th>Описание события</th>
-                                    <th>Комментарий</th>
+                                    <th style="text-align: center">Дата</th>
+                                    <th style="text-align: center">Статус</th>
+                                    <th style="text-align: center">ОПО</th>
+                                    <th style="text-align: center">Элемент ОПО</th>
+                                    <th style="text-align: center">Описание события</th>
+                                    <th style="text-align: center">Комментарий</th>
+                                    <th style="text-align: center">Состояние</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                     @foreach($data_to_jas as $row)
                                         <tr>
-                                            <td>
+                                            <td style="text-align: center">
                                                 <?php
                                                 echo date("Y-m-d H:i:s", strtotime($row->date))
                                                 ?>
                                             </td>
-                                            <td>{{$row->status}}</td>
-                                            <td>{{$row->opo}}</td>
-                                            <td>{{$row->elem_opo}}</td>
-                                            <td>
+                                            <td style="text-align: center">{{$row->status}}</td>
+                                            <td style="text-align: center">{{$row->opo}}</td>
+                                            <td style="text-align: center">{{$row->elem_opo}}</td>
+                                            <td style="text-align: center">{{$row->sobitie}}</td>
+                                            <td style="text-align: center">{{$row->comment}}</td>
+                                            <td style="text-align: center">
                                                 <?php
                                                 if ($row->check == false){
-                                                    echo 'Новое';
+                                                    echo "<button row-id=\"$row->id\" class=\"btn btn-default\">Квитировать</button>";
                                                 } else{
                                                     echo 'Просмотрено';
                                                 };
                                                 ?>
                                             </td>
-                                            <td>{{$row->sobitie}}</td>
-                                            <td>{{$row->comment}}</td>
                                         </tr>
                                     @endforeach
                                 </tbody>
@@ -75,7 +75,19 @@
             "pagingType": "full_numbers",
             destroy: true,
             order: [[0, 'desc']],
-
+        });
+        $('.btn').click(function(){
+            var id = this.getAttribute('row-id')
+            console.log(id)
+            $.ajax({
+                url:'/jas_commit/'+id,
+                type:'GET',
+                success:(res)=>{
+                    var td = this.parentNode
+                    td.removeChild(this)
+                    td.innerText = 'Просмотрено'
+                }
+            })
         });
     } );
 

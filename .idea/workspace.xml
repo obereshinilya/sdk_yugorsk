@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af91b55e-00ec-434f-9bfa-8c184a447e3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/JasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/JasController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Jas.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Jas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/top_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/admin/inc/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/admin/inc/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/admin/perm_view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/admin/perm_view.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/report_actual_declarations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/docs/reports/report_actual_declarations.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/docs/reports/report_main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/docs/reports/report_main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/gda.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/gda.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/modal/modal.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/include/yugorsk_head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/include/yugorsk_head.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/web/jas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/jas/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/web/opo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/web/opo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +241,7 @@
       <workItem from="1657802668938" duration="695000" />
       <workItem from="1658045136822" duration="25000" />
       <workItem from="1658128847598" duration="13949000" />
-      <workItem from="1658297790056" duration="18419000" />
+      <workItem from="1658297790056" duration="34708000" />
     </task>
     <servers />
   </component>

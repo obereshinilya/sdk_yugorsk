@@ -2,10 +2,13 @@
 
 @extends('web.layouts.app')
 @section('title')
-    Отчеты
+    Документарный блок
 @endsection
 
 @section('content')
+    {{--    Включаем всплывашку с новым сообщением о событии--}}
+    @include('web.admin.inc.new_JAS')
+
     @include('web.include.sidebar_doc')
     <div class="top_table">
         @include('web.include.toptable')
@@ -19,7 +22,6 @@
                     <div class="card-header">
                         <h2 class="text-muted" style="text-align: center" >Неопределенная таблица</h2>
                     </div>
-{{--                    59.3vh--}}
                     <div class="inside_tab_padding form51" style="height:90%; padding-left: 0px">
                         <div style="background: #FFFFFF; border-radius: 6px" class="form51">
                             <table>

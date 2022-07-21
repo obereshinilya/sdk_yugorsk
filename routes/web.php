@@ -43,9 +43,11 @@ use Illuminate\Support\Facades\Auth;
 //******************************* Документарный блок ******************************************
             //********************* ЖАС ***********************************************
             Route::get('/jas_full', "JasController@showJas"); // страница Журнала событий полная
-            Route::get('/jas_in_top_table', "JasController@jas_in_top_table"); // страница Журнала событий полная
+            Route::get('/jas_in_top_table', "JasController@jas_in_top_table"); // в маленький журнал данные
+            Route::get('/check_new_JAS', "JasController@check_new_JAS"); // проверка новых сообщений
+            Route::get('/jas_commit/{id}', "JasController@jas_commit"); // квитировать событие
 
-
+            //********************* Отчеты ***********************************************
             Route::get('/docs', 'ReportController@index');  //главная страница
             Route::get('/docs/actual_declarations', 'ReportController@actual_declarations');  //Реестр актуальных деклараций ПБ
 
